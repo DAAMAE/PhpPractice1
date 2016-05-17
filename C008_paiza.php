@@ -1,9 +1,9 @@
 <?php
     // 自分の得意な言語で
     // Let's チャレンジ！！
-    $input_lines = trim(fgets(STDIN));
+    $input = trim(fgets(STDIN));
     $length = trim(fgets(STDIN));
-    $tag = explode(" ", $input_lines);
+    $tag = explode(" ", $input);
 
     $tag1_pos = strpos($length, $tag[0]);
     $tag1_len = strlen($tag[0]);
